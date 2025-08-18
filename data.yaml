@@ -1,5 +1,5 @@
-train: /burst_detection/images/train
-val: /burst_detection/images/val
+train: /burst_detection_using_yolo/images/train
+val: /burst_detection_using_yolo/images/val
 
 nc: 1
 names: ['solar_burst']
