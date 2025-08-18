@@ -1,3 +1,6 @@
+# Author: G N Paneendra
+# Date: 18 August 2025
+
 from ultralytics import YOLO
 import datetime
 
@@ -7,7 +10,7 @@ print(f"\nStarting time: {t1.strftime('%H:%M:%S')}\n")
 model = YOLO('yolo11n')
 
 model.train(
-    data='/burst_detection/data.yaml',
+    data='/burst_detection_using_yolo/data.yaml',
     epochs=200,
     imgsz=640,
     device=0
