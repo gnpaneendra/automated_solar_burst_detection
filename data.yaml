@@ -1,0 +1,5 @@
+train: /burst_detection/images/train
+val: /burst_detection/images/val
+
+nc: 1
+names: ['solar_burst']
