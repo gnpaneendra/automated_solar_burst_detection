@@ -197,11 +197,11 @@ def plot(spec, freq, time, vl, vh, name, name2, model, csv_writer=None):
 	plt.show()
 	plt.close()
 
-path = r'burst_detection_using_yolo/2024_02_12.csv' # Set the location to the data
+path = r'/burst_detection_using_yolo/2024_02_12.csv' # Set the location to the data
 #path = str(sys.argv[1])
 
 # Load the trained model
-model = YOLO('burst_detection_using_yolo/runs/detect/train/weights/best.pt') # Set the location to the weights
+model = YOLO('/burst_detection_using_yolo/runs/detect/train/weights/best.pt') # Set the location to the weights
 
 file_name = os.path.basename(os.path.normpath(path))
 print(f"\nCurrent file: {file_name}")
