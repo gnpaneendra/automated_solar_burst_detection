@@ -12,13 +12,13 @@ Step 1: Create a virtual environmnet and install the required dependencies using
 
 Step 2: Place your images and annotations in the fomrat
 
-/burst_detetcion
-	/images
-		/train
-		/val
-	/labels
-		/train
-		/val
+/burst_detetcion<br>
+	/images<br>
+		/train<br>
+		/val<br>
+	/labels<br>
+		/train<br>
+		/val<br>
 
 Step 3: Run train.py (For training the model)
 
