@@ -1,3 +1,13 @@
+# Automated Solar Radio bursts detection for Two-Element Radio Interferometer at Gauribidanur Radio Observatory (RRI).
+
+## Instrument Specification
+Frequency bandwidth = 180 MHz - 360 MHz
+Sampling rate (ADC rate) = 1.25GS/s
+ADC resolution = 8bit
+Baseline = 6 m
+
+## Processing
+
 Step 1: Create a virtual environmnet and install the required dependencies using requirements.txt
 
 Step 2: Place your images and annotations in the fomrat
